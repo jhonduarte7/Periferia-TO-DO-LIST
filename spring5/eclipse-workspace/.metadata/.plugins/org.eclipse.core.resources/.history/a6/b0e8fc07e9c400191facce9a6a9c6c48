@@ -1,0 +1,20 @@
+package com.miempresa.program.api.rest1.models.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.miempresa.program.api.rest1.models.dao.IUsuarioDao;
+import com.miempresa.program.api.rest1.models.entity.Cliente;
+
+public class UsuarioServiceImpl implements IUsuarioService{
+
+	@Autowired
+	private IUsuarioDao usuarioDao;
+	@Override
+	public List<Cliente> findAll() {
+		
+		return null;
+	}
+
+}

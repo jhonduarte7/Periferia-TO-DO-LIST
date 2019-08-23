@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Usuario</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <br>
+    <form>
+        <ion-list lines="full" class="ion-no-margin ion-no-padding">
+          <ion-item>
+            <ion-label position="stacked">Nombre<ion-text color="danger">*</ion-text></ion-label>
+            <ion-input [(ngModel)]= "usuario.nombre" name="nombre" required type="text" oninput="handleFirstNameValue(event)"></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label position="stacked">Apellido<ion-text color="danger">*</ion-text></ion-label>
+            <ion-input [(ngModel)]= "usuario.apellido" name="apellido"  required type="text" oninput="handleLastNameValue(event)"></ion-input>
+          </ion-item>
+
+          <ion-item>
+              <ion-label position="stacked">Email<ion-text color="danger">*</ion-text></ion-label>
+              <ion-input [(ngModel)]= "usuario.email" name="email"  required type="text" oninput="handleLastNameValue(event)"></ion-input>
+            </ion-item>
+          
+
+        
+        </ion-list>
+
+        <div class="ion-padding">
+          <ion-button (click)='create()' *ngIf="!usuario.id else elseBlock" expand="block" type="submit" class="ion-no-margin" >Crear Usuario</ion-button>
+        </div>
+        <ng-template #elseBlock>
+        <div class="ion-padding">
+            <ion-button (click)='update()'  expand="block" type="submit" class="ion-no-margin" >Editar Usuario</ion-button>
+        </div>
+        </ng-template>
+      </form>
+
+
+
+
+</ion-content>

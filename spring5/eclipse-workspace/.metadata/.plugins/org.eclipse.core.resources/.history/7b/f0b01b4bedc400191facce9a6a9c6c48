@@ -1,0 +1,10 @@
+insert into clientes (nombre, apellido, email, create_at) values ('Jhon', 'Duarte', 'johnduarte7@gmail.com', '2019-08-23');
+insert into clientes (nombre, apellido, email, create_at) values ('Jhon', 'Duarte', 'johnduarte7@gmail.com', '2019-08-23');
+insert into clientes (nombre, apellido, email, create_at) values ('Jhon', 'Duarte', 'johnduarte7@gmail.com', '2019-08-23');
+insert into clientes (nombre, apellido, email, create_at) values ('Jhon', 'Duarte', 'johnduarte7@gmail.com', '2019-08-23');
+insert into clientes (nombre, apellido, email, create_at) values ('Jhon', 'Duarte', 'johnduarte7@gmail.com', '2019-08-23');
+insert into clientes (nombre, apellido, email, create_at) values ('Jhon', 'Duarte', 'johnduarte7@gmail.com', '2019-08-23');
+insert into clientes (nombre, apellido, email, create_at) values ('Jhon', 'Duarte', 'johnduarte7@gmail.com', '2019-08-23');
+insert into clientes (nombre, apellido, email, create_at) values ('Jhon', 'Duarte', 'johnduarte7@gmail.com', '2019-08-23');
+insert into clientes (nombre, apellido, email, create_at) values ('Jhon', 'Duarte', 'johnduarte7@gmail.com', '2019-08-23');
+insert into clientes (nombre, apellido, email, create_at) values ('Jhon', 'Duarte', 'johnduarte7@gmail.com', '2019-08-23');

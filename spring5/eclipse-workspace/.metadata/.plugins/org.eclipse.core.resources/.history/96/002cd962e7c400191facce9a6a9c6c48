@@ -1,0 +1,5 @@
+package com.miempresa.program.api.rest1.models.dao;
+
+public interface IUsuarioDao {
+
+}

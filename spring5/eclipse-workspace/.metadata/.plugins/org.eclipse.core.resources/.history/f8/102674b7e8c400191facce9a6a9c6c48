@@ -1,0 +1,15 @@
+package com.miempresa.program.api.rest1.models.services;
+
+import java.util.List;
+
+import com.miempresa.program.api.rest1.models.entity.Cliente;
+
+public class UsuarioServiceImpl implements IUsuarioService{
+
+	@Override
+	public List<Cliente> findAll() {
+		
+		return null;
+	}
+
+}
